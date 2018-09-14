@@ -16,7 +16,7 @@ color:#333;
 blend-mode: multiply;
 }
 
-h1{
+h1 {
 font-family: 'Abril Fatface', cursive;
 letter-spacing: 3px;
 font-weight: 500;
@@ -27,7 +27,7 @@ margin-left: 12%;
 color: #f2f2f2
 }
 
-h2{
+h2 {
 font-family: 'Catamaran', sans-serif;
 text-align: left;
 margin-top: -85px;
@@ -36,12 +36,13 @@ font-size: 150%;
 margin-left: 12%;
 color: #f2f2f2
 
-p{
+/*fix me*/
+p {
 font-family: 'Catamaran', sans-serif;
 text-align: left;
 margin-top: -85px;
 font-weight: 100;
-font-size: 150%;
+font-size: 50%;
 margin-left: 12%;
 color: #f2f2f2
 }
