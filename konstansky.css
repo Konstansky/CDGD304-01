@@ -4,9 +4,9 @@ background-image: url("s2.gif");
 /*background-color: #333;*/
 /*background-blend-mode: multiply;*/
 background-repeat: no-repeat;
-background-position: center;
+background-position: center top;
 background-attachment: fixed;
-background-size: auto;
+background-size: 100%;
 }
 
 img {
@@ -23,8 +23,9 @@ font-weight: 500;
 text-align: left;
 margin-top: 70px;
 font-size: 300%;
-margin-left: 12%;
+margin-left: 50px;
 color: #f2f2f2
+/*Line Hight Fixes Needed    */
 }
 
 h2 {
@@ -33,7 +34,7 @@ text-align: left;
 margin-top: -85px;
 font-weight: 300;
 font-size: 150%;
-margin-left: 12%;
+margin-left: 50px;
 color: #f2f2f2
 
 /*fix me*/
