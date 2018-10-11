@@ -4,7 +4,7 @@ body {
 
 .mk-name {
 	font-size: 5em;
-	margin-top: 2em;
+	margin-top: 3em;
 	display: inline-block;
 }
 
@@ -15,7 +15,8 @@ body {
 .row-margin {
 	max-width: 80%;
 	margin-left: 10%;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
+    
 }
 
 .space-bg {
@@ -26,6 +27,8 @@ body {
 .sbg {
 		background-image: url("b2.png");
 	background-repeat: repeat;
+    background-position: top center;
+    background-size: 100%;
 }
 
 .mwzero {
@@ -34,26 +37,45 @@ body {
 
 .image-hero {
 	margin-left: 40%;
-	margin-top: 10%;
+	margin-top: 25%;
+}
+nav {
+/*    margin-left: 10em ;*/
+/*    margin-right: 10em ;*/
+    color: white
+    
 }
 
 .navbar {
-	background-color: rgba(51, 51, 51, .28);
+/*	background-color: rgba(51, 51, 51, .28);*/
+    background-color: black;
 /*	border-bottom: 1px solid #333;*/
 }
 
+/*
 .navbar-brand {
 	margin-left: 10%;
+    width: 25px;
+}
+*/
+#logo {
+/*    background-image: url("logo.png");*/
+    
+    width: 70px ;
+    margin-left: 100%;
+/*    margin-left: 5em;*/
+/*    height: 50px;*/
+/*    border: 1px solid red ;*/
 }
 
 .navbar-nav {
-	margin-left: 40%;
+	margin-left: 47.5%;
 }
 
 @keyframes floating {
-	0% {transform: translatey(-20px) rotate(-3deg);}
+	0% {transform: translatey(-20px) rotate(-2deg);}
 	50% {transform: translatey(0px) rotate(3deg); }
-	100% {transform: translatey(-20px) rotate(-3deg);}
+	100% {transform: translatey(-20px) rotate(-2deg);}
 }
 
 .float {
@@ -64,13 +86,22 @@ body {
 }
 
 .foldbottom {
-	height: 15px;
+	height: 250px;
 	background: url("break.png");
+    background-size: 100%;
 	background-repeat: repeat-x;
+    
 }
 
 .whitebg {
-	background-color: white;
+	background-color: #fafafa;
 	color: #333;
 
+}
+.nav-item {
+    padding: 5px;
+    padding-right: 50px;
+    padding-left: 0px;
+    color: white;
+/*    text-shadow: 0 0 8px rgba(0, 0, 0, 0.66);*/
 }
