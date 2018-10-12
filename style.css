@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
 body {
 	color: white;
 }
@@ -6,10 +8,14 @@ body {
 	font-size: 5em;
 	margin-top: 3em;
 	display: inline-block;
+    color: #ffffff;
 }
 
 #mk-tagline {
 	display: block;
+    font-family: 'Space Mono', monospace;
+     font-weight: bold;
+    color: #ffffff;
 }
 
 .row-margin {
@@ -86,7 +92,7 @@ nav {
 }
 
 .foldbottom {
-	height: 250px;
+	height: 180px;
 	background: url("break.png");
     background-size: 100%;
 	background-repeat: repeat-x;
@@ -94,7 +100,7 @@ nav {
 }
 
 .whitebg {
-	background-color: #fafafa;
+	background-color: #ffffff;
 	color: #333;
 
 }
@@ -102,6 +108,45 @@ nav {
     padding: 5px;
     padding-right: 50px;
     padding-left: 0px;
-    color: white;
+    color: #ffffff;
 /*    text-shadow: 0 0 8px rgba(0, 0, 0, 0.66);*/
 }
+
+a.nav-link { color: #ffffff;}
+
+div.gallery {
+    margin-top: 30px;
+/*    border: 1px solid #ccc;*/
+    float: left;
+    width: 100%;
+}
+
+div.gallery:hover {
+/*    border: 1px solid #777;*/
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+/*    padding: 15px;*/
+    text-align: center;
+}
+
+p {font-family: 'Space Mono', monospace;
+ color: #000000;
+font-size: 16px;}
+
+
+h4.whatever {font-family: 'Space Mono', monospace;
+ color: #ffffff;
+/* font-weight: bold;*/
+font-size: 16px;}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+ color: #ffffff;
+/*font-weight: bold;*/
+font-size: 16px;}
