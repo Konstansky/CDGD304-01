@@ -1,5 +1,7 @@
 <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 
+<link rel="stylesheet" href="https://use.typekit.net/etr8umi.css">
+
 body {
 	color: white;
 }
@@ -9,6 +11,9 @@ body {
 	margin-top: 3em;
 	display: inline-block;
     color: #ffffff;
+    font-family: interstate, sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 #mk-tagline {
@@ -21,17 +26,17 @@ body {
 .row-margin {
 	max-width: 80%;
 	margin-left: 10%;
-	padding-bottom: 40px;
+	padding-bottom:60px;
     
 }
 
 .space-bg {
 
-	padding-bottom: 7em;
+	padding-bottom: 13em;
 }
 
 .sbg {
-		background-image: url("b2.png");
+		background-image: url("b5.png");
 	background-repeat: repeat;
     background-position: top center;
     background-size: 100%;
@@ -91,11 +96,13 @@ nav {
 	animation-iteration-count: infinite;
 }
 
+/*
 .foldbottom {
 	height: 180px;
 	background: url("break.png");
     background-size: 100%;
 	background-repeat: repeat-x;
+*/
     
 }
 
@@ -127,6 +134,7 @@ div.gallery:hover {
 
 div.gallery img {
     width: 100%;
+    max-height: 200px;
     height: auto;
 }
 
