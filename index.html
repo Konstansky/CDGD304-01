@@ -67,63 +67,110 @@
  <div class="row foldbottom">
 
   </div>
-    
+    <style>
    
-    
-    
-    
-    
-    
-    
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
+      body {
+                margin: 0px ;
+            }
+            
+            .grid_parent {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1em;
+                grid-auto-rows: minmax(auto,auto);
+                align-items: center;
+                grid-auto-rows: 
+                
+            }
 
-<div class="w3-content w3-display-container" style="max-width:75%">
-  <img class="mySlides" src="Photos/b1.jpg" style="width:100%">
-  <img class="mySlides" src="Photos/b2.jpg" style="width:100%">
-  <img class="mySlides" src="Photos/b3.jpg" style="width:100%">
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-  </div>
-</div>
+            .box_1 {
+                background-color:black; 
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row: 1;
+            }
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+            .box_2 {
+                background-color: black;
+            }
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+            .box_3 {
+                background-color:black ;
+            }
 
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
+            .box_4 {
+                background-color: black;
+           
+            }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
+            .box_5 {
+                background-color: black ;
+               
+            }
+
+            .box_6 {
+                background-color: black;
+              
+            }
+
+            .box_7 {
+                background-color: black ;
+            }
+
+            .box_8 {
+                background-color: black;
+            }
+
+            .box_9 {
+                background-color: black;
+            }
+            .box_10 {
+                background-color: black;
+            }
+            .shared {
+                width: auto;
+                height: 300px;
+                padding: 0px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+        </style>
+    <body>
+<div class="piccs">
+        <div class="grid_parent">
+            <div class="box_1 shared">1
+            </div>
+            <div class="box_2 shared">2
+            </div>
+            <div class="box_3 shared">3
+            </div>
+            <div class="box_4 shared">4
+            </div>
+            <div class="box_5 shared">5
+            </div>
+            <div class="box_6 shared">6
+            </div>
+            <div class="box_7 shared">7
+            </div>
+            <div class="box_8 shared">8
+            </div>
+            <div class="box_9 shared">9
+            </div>
+            <div class="box_9 shared">10
+            </div>
+        </div>
+    </div>
+
+    </body>
+    
+    
+    
+    
+    
+
     
     
     
@@ -144,110 +191,11 @@ function showDivs(n) {
     
 <div class="container whitebg">
 	
-	  <div class="row ">
-  	    <div class="col">
-       <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="Photos/c1.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-       <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="Photos/c2.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-      <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="Photos/c3.png" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-      <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c4.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-  </div>
-  	  <div class="row ">
-  	    <div class="col">
-      <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c5.png" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-     <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c6.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-       <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c6.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-       <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c7.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-  </div>
-  	  <div class="row ">
-  	    <div class="col">
-       <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c8.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-       <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-      <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c9.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-        <div class="col">
-       <div class="gallery">
-  <a target="_blank" href="b4.png">
-    <img src="photos/c10.jpg" alt="5Terre" width="600" height="400">
-  </a>
-    </div>
-    </div>
-  </div>	  <div class="row ">
-  	    <div class="col">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lectus ipsum, lobortis vel rutrum consequat, laoreet eu turpis. Nam eu commodo nulla, eu rhoncus tortor. Pellentesque lectus lectus, cursus eu venenatis a, pellentesque vel nibh. Duis eu cursus nulla. Phasellus et cursus augue. Nam sodales neque justo, vitae facilisis magna facilisis in.</p>
-    </div>
-        <div class="col">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lectus ipsum, lobortis vel rutrum consequat, laoreet eu turpis. Nam eu commodo nulla, eu rhoncus tortor. Pellentesque lectus lectus, cursus eu venenatis a, pellentesque vel nibh. Duis eu cursus nulla. Phasellus et cursus augue. Nam sodales neque justo, vitae facilisis magna facilisis in.</p>
-    </div>
-        <div class="col">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lectus ipsum, lobortis vel rutrum consequat, laoreet eu turpis. Nam eu commodo nulla, eu rhoncus tortor. Pellentesque lectus lectus, cursus eu venenatis a, pellentesque vel nibh. Duis eu cursus nulla. Phasellus et cursus augue. Nam sodales neque justo, vitae facilisis magna facilisis in.</p>
-    </div>
-        <div class="col">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lectus ipsum, lobortis vel rutrum consequat, laoreet eu turpis. Nam eu commodo nulla, eu rhoncus tortor. Pellentesque lectus lectus, cursus eu venenatis a, pellentesque vel nibh. Duis eu cursus nulla. Phasellus et cursus augue. Nam sodales neque justo, vitae facilisis magna facilisis in.</p>
-    </div>
-  </div>
+	 
 
 </div>
+    <footer>
+  <h4 class="whatever">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+</footer>
 </body>
 </html>

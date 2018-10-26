@@ -49,6 +49,7 @@ body {
 .image-hero {
 	margin-left: 40%;
     margin-top: 25%;
+    image-resolution: 120%;
 }
 nav {
 /*    margin-left: 10em ;*/
@@ -165,10 +166,3 @@ footer {
     text-align: center;
     color: white;
 }
-
-.piccs {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-} 
